@@ -1,0 +1,8 @@
+a= 'smallest apple in the world'
+b= 'biggest grape in the world'
+if b>a:
+    print("b is greater than a")
+elif a==b:
+    print("a is equal to b")
+else:
+    print("a is less than b")
