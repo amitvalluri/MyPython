@@ -1,0 +1,19 @@
+#if age less than 18
+#print kid
+#if age greater than 18 and less than 28
+#print young 
+#if age greater then 28 and less than 50 and he has kids 
+#print parent
+#if age greater than 50 with or without kids
+#print wise human
+int(input("enter your age: "))
+if age < 18:
+    print("kid")
+if age > 18 and age < 28:
+    print("young")
+int(input("enter how many kids you have: "))
+elif age > 28 and age < 50 kids>2:
+    print("parent")
+if age > 50 kids >=:
+else:
+    print("wise human")
