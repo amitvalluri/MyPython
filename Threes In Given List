@@ -1,0 +1,5 @@
+myList=[1, 2, 3, 3, 4, 4, 6, 3, 7, 3]
+for x in myList:
+    for y in x:
+        if y==3:
+            print(x)
