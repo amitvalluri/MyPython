@@ -1,0 +1,6 @@
+myList=["a", "b", "c", "b"]
+counter=0
+for x in myList:
+    if x=="b":
+        counter=counter+1
+print(counter)
