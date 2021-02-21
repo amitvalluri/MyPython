@@ -1,0 +1,46 @@
+#Python List Methods 
+
+#append
+list1 = ["apple", "banana", "cherry"]
+list1.append("mango")
+
+#clear
+list1 = ["apple", "banana", "cherry"]
+list1.clear()
+
+#copy
+list1 = ["apple", "banana", "cherry"]
+x=list1.copy()
+
+#count
+list1 = ["apple", "banana", "cherry"]
+x=list1.count("apple")
+
+#extend
+list1 = ["apple", "banana", "cherry"]
+list2= ["iphone", "samsung", "blackberry", "nokia"]
+list1.extend(list2)
+
+#index
+list1 = ["apple", "banana", "cherry"]
+x=list1.index("apple")
+
+#insert
+list1 = ["apple", "banana", "cherry"]
+list1.insert(2,"iphone")
+
+#pop
+list1 = ["apple", "banana", "cherry"]
+list1.pop(0)
+
+#remove
+list1 = ["apple", "banana", "cherry"]
+list1.remove("apple")
+
+#reverse
+list2= ["iphone", "samsung", "blackberry", "nokia"]
+list2.reverse()
+
+#sort
+list2= ["iphone", "samsung", "blackberry", "nokia"]
+list2.sort()
